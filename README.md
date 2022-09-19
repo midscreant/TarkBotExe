@@ -15,6 +15,8 @@ Executable for tarkbot. Source code is currently private but available on reques
 
 -Currently designed for 1920x1080 screens, 1920x1080 game resolution, and in fullscreen. App is pixel specific so slight changes can cause fatal errors
 
+-Make sure EFT and BSGlauncher not tunning, and that you've already signed in to your BSG account. Will fail otherwise
+
 
 Any errors encountered, please let me know.
 
