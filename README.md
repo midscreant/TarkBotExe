@@ -38,7 +38,9 @@ Checkup Freq:  Interval between full run attempts
 Path to...: Path to BSGLauncher.exe needed to boot game
 
 Generator: How many large fuel containers to load
+
 Water: How many water filters to use
+
 Booze: How many booze to produce
 
 Workbench: Recipe selection and how many times to run it
