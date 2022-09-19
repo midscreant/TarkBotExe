@@ -28,13 +28,18 @@ THIS IS A WIP. IT MAY HURT YOUR PC (Unlikely). I DO NOT TAKE ANY RESPONSIBILITY 
 <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 HOW TO RUN THE BOT
 <><><><><><><><><><><><><><><>
+
 This is an auto-hideout runner
+
 
 *full run: One run of every node that is to run. 
 
 Preset: Not working currently. Will be able to save presets
+
 Time: Amount of time to run the program for (n * 15min)
+
 Checkup Freq:  Interval between full run attempts
+
 Path to...: Path to BSGLauncher.exe needed to boot game
 
 Generator: How many large fuel containers to load
@@ -44,25 +49,41 @@ Water: How many water filters to use
 Booze: How many booze to produce
 
 Workbench: Recipe selection and how many times to run it
+
 Intel: Recipe selection and how many times to run it
+
 Medstation: Recipe selection and how many times to run it
+
 Lavatory: Recipe selection and how many times to run it
+
 Nutrition: Recipe selection and how many times to run it
+
 Scav: Recipe selection and how many times to run it
 
 Only required entries are Time, Checkup Freq and Path
+
+
 Leaving either the recipe selection or run count value empty will not run node
 
 Once all chosen inputs have been loaded, press Start
+
 Verify info on new subscreen, then press Confirm
+
 Once confirmed, do not touch mouse or keyboard until the time has run through
+
 or you want to cancel the run.
+
 Tarkov will auto-boot and open, then once loaded it will start
+
 running hideout full runs. Program will wait 10 sec after every
+
 completed node to give a chance to kill program.
 
+
 Reminder: This is a beta. It will probably break at some point.
-Would not recommend leaving it unattended for long periods of 
+
+Would not recommend leaving it unattended for long periods of
+
 time for now
 
 <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
