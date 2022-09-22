@@ -60,6 +60,8 @@ Nutrition: Recipe selection and how many times to run it
 
 Scav: Recipe selection and how many times to run it
 
+Preset Name: File name for new preset saves
+
 Only required entries are Time, Checkup Freq and Path
 
 
