@@ -34,7 +34,7 @@ This is an auto-hideout runner
 
 *full run: One run of every node that is to run. 
 
-Preset: Not working currently. Will be able to save presets
+Preset: Saved presets
 
 Time: Amount of time to run the program for (n * 15min)
 
