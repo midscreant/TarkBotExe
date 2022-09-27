@@ -1,5 +1,4 @@
-('C:\\Users\\vinch\\Desktop\\_SpyderWork_ - '
- 'Copy\\TarkovBot\\build\\tgui\\PYZ-00.pyz',
+('C:\\Users\\vinch\\Desktop\\copy__\\TarkovBot\\build\\tgui\\PYZ-00.pyz',
  [('multiprocessing.popen_spawn_posix',
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2032.0_x64__qbz5n2kfra8p0\\lib\\multiprocessing\\popen_spawn_posix.py',
@@ -548,6 +547,10 @@
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2032.0_x64__qbz5n2kfra8p0\\lib\\stringprep.py',
    'PYMODULE'),
+  ('tracemalloc',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2032.0_x64__qbz5n2kfra8p0\\lib\\tracemalloc.py',
+   'PYMODULE'),
   ('_py_abc',
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2032.0_x64__qbz5n2kfra8p0\\lib\\_py_abc.py',
@@ -579,10 +582,6 @@
   ('http.cookiejar',
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2032.0_x64__qbz5n2kfra8p0\\lib\\http\\cookiejar.py',
-   'PYMODULE'),
-  ('tracemalloc',
-   'C:\\Program '
-   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2032.0_x64__qbz5n2kfra8p0\\lib\\tracemalloc.py',
    'PYMODULE'),
   ('ast',
    'C:\\Program '
@@ -691,16 +690,16 @@
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.2032.0_x64__qbz5n2kfra8p0\\lib\\tkinter\\constants.py',
    'PYMODULE'),
   ('recipes___',
-   'C:\\Users\\vinch\\Desktop\\_SpyderWork_ - Copy\\TarkovBot\\recipes___.py',
+   'C:\\Users\\vinch\\Desktop\\copy__\\TarkovBot\\recipes___.py',
    'PYMODULE'),
   ('Orchestrator',
-   'C:\\Users\\vinch\\Desktop\\_SpyderWork_ - Copy\\TarkovBot\\Orchestrator.py',
+   'C:\\Users\\vinch\\Desktop\\copy__\\TarkovBot\\Orchestrator.py',
    'PYMODULE'),
   ('ErrorChecker',
-   'C:\\Users\\vinch\\Desktop\\_SpyderWork_ - Copy\\TarkovBot\\ErrorChecker.py',
+   'C:\\Users\\vinch\\Desktop\\copy__\\TarkovBot\\ErrorChecker.py',
    'PYMODULE'),
   ('Hideout',
-   'C:\\Users\\vinch\\Desktop\\_SpyderWork_ - Copy\\TarkovBot\\Hideout.py',
+   'C:\\Users\\vinch\\Desktop\\copy__\\TarkovBot\\Hideout.py',
    'PYMODULE'),
   ('numpy.core.multiarray',
    'C:\\Users\\vinch\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python310\\site-packages\\numpy\\core\\multiarray.py',
@@ -1604,5 +1603,5 @@
    'C:\\Users\\vinch\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python310\\site-packages\\pytweening\\__init__.py',
    'PYMODULE'),
   ('BootUp',
-   'C:\\Users\\vinch\\Desktop\\_SpyderWork_ - Copy\\TarkovBot\\BootUp.py',
+   'C:\\Users\\vinch\\Desktop\\copy__\\TarkovBot\\BootUp.py',
    'PYMODULE')])
