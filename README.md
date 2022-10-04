@@ -16,9 +16,9 @@ Running the exe will open a cmd prompt as well as the GUI.
 
 RUNNING THE BOT:
 
-As a general rule, inserting a value of -1 to sections will run them indefinitely (with the exception of "Checkup Freq")
-
 -GUI Buttons
+
+  As a general rule, inserting a value of -1 to sections will run them indefinitely (with the exception of "Checkup Freq")
 
   -Preset
     -Set and delete presets in the top left (select option, then click "Insert" or "Delete"
