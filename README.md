@@ -35,7 +35,7 @@ IF YOU WANT TO KILL PROGRAM MIDRUN - Rapidly and repeatedly move the cursor to o
 
 Moving the mouse can cause program to fail. Do not move during run unless you want to kill it
 
-Between each part of a full run, there is a 10 second grace period to allow for any necessary onscreen interactions
+Between each part of a runthrough, there is a 10 second grace period to allow for any necessary onscreen interactions
 
 By running this program, you allow the bot to use your in-game funds for purchases, re-organize your inventory as it sees fit, and consume items from your stash. 
 
@@ -87,12 +87,12 @@ RUNNING THE BOT:
     -Water: Amount of water filters you're willing to buy (max)
     -Booze: Amount of booze you want to produce
     
-    -Scav: Scav Case selction & run count
-    -Workbench: Workbench selction & run count
-    -Intel: Intel selction & run count
-    -Medstation: Medstation selction & run count
-    -Lavatory: Lavatory selction & run count
-    -Nutrition: Nutrition selction & run count
+    -Scav: Scav Case selction & run count per runthrough
+    -Workbench: Workbench selction & run count per runthrough
+    -Intel: Intel selction & run count per runthrough
+    -Medstation: Medstation selction & run count per runthrough
+    -Lavatory: Lavatory selction & run count per runthrough
+    -Nutrition: Nutrition selction & run count per runthrough
     
 Once "Time", "Checkup Freq", "Path to BSGLauncher.exe" and at least 1 node activty filled out, you can press "Start"
 
