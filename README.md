@@ -17,6 +17,30 @@ INSTALLATION:
 
 <--------------------->
 
+PREFACE:
+
+This is made for 1920x1080 monitors.
+This will not work if you have 2 monitors running.
+
+This was designed to work with fully leveled hideouts. May have unexpected behavior if you attempt to run nodes you don't have or create recipes you aren't high enough level for. The program will end itself if it finds it can't purchase certain items. It will also end itself if you don't have enough money. If you do not make sure you have enough money and the proper levels beforehand, the program may not work as intended.
+
+IF YOU WANT TO KILL PROGRAM MIDRUN - Rapidly and repeatedly move the cursor to one of the four corners of monitor until program ends (~ 1 - 10 sec)
+
+Moving the mouse can cause program to fail. Do not move during run unless you want to kill it
+
+Between each part of a full run, there is a 10 second grace period to allow for any necessary onscreen interactions
+
+By running this program, you allow the bot to use your in-game funds for purchases, re-organize your inventory as it sees fit, and consume items from your stash. 
+
+I AM NOT RESPONSIBLE FOR ANY LOSS OF IN-GAME CURRENCY AND ITEMS
+
+I AM NOT RESPONSIBLE FOR ANY DAMAGE TO PHYSICAL SYSTEMS
+
+Do not reproduce or modify without permission 
+
+
+<--------------------->
+
 RUNNING THE BOT:
 
 -GUI BUTTON GUIDE
