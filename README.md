@@ -43,7 +43,7 @@ I AM NOT RESPONSIBLE FOR ANY LOSS OF IN-GAME CURRENCY AND ITEMS
 
 I AM NOT RESPONSIBLE FOR ANY DAMAGE TO PHYSICAL SYSTEMS
 
-Do not reproduce or modify without permission 
+Do not reproduce or sell without permission 
 
 
 <--------------------->
