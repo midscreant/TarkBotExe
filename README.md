@@ -7,10 +7,10 @@ Source code @ https://github.com/midscreant/TarkBot
 
 INSTALLATION:
 
-Download all files from master branch and extract. 
-EXE file is located in /dist/tgui/tgui.exe
-Should be ready to go out of the box.
-Running the exe will open a cmd prompt as well as the GUI.
+  Download all files from master branch and extract. 
+  EXE file is located in /dist/tgui/tgui.exe
+  Should be ready to go out of the box.
+  Running the exe will open a cmd prompt as well as the GUI.
 
 <--------------------->
 
