@@ -19,7 +19,7 @@ INSTALLATION:
 
 RUNNING THE BOT:
 
--GUI Buttons
+-GUI BUTTON GUIDE
 
   As a general rule, inserting a value of -1 to sections will run them indefinitely (with the exception of "Checkup Freq")
 
