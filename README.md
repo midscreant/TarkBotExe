@@ -36,7 +36,7 @@ RUNNING THE BOT:
     
   -Path to BSGLauncher.exe
   
-    -Self-Explanatory. Needs this to boot game on software start
+    -Needs this to boot game on software start
     
   -Checkboxes
   
