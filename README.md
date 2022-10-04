@@ -94,7 +94,7 @@ RUNNING THE BOT:
     -Lavatory: Lavatory selction & run count per runthrough
     -Nutrition: Nutrition selction & run count per runthrough
     
-Once "Time", "Checkup Freq", "Path to BSGLauncher.exe" and at least 1 node activty filled out, you can press "Start"
+Once "Time", "Checkup Freq", "Path to BSGLauncher.exe" and at least 1 node activity filled out, you can press "Start"
 
 This brings up a confirmation window with all of your choices
 
