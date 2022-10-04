@@ -21,17 +21,21 @@ RUNNING THE BOT:
   As a general rule, inserting a value of -1 to sections will run them indefinitely (with the exception of "Checkup Freq")
 
   -Preset
+  
     -Set and delete presets in the top left (select option, then click "Insert" or "Delete"
     -Create new presets by filling out full form then naming and saving the preset in the "Preset Name" section
     
   -Time
+  
     -How long you want the bot to run for (n * 15min)
     - -1 input will run indefinitely
     
   -Checkup Freq
+  
     -How long in between hideout checkups. A break in between full runs (n * 15min)
     
   -Path to BSGLauncher.exe
+  
     -Self-Explanatory. Needs this to boot game on software start
     
   -Checkboxes
