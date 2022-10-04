@@ -83,10 +83,6 @@ Considered adding a "Sell On Flea" function, but seemed like it may violate EFT 
 If you run into any bugs, feel free to let me know. This is a WIP and I don't expect it to run flawlessly.
 Discord: vluther123#8297
 
- ___  _, __, _,_ __,  _, ___
-  |  /_\ |_) |_/ |_) / \  | 
-  |  | | | \ | \ |_) \ /  | 
-  ~  ~ ~ ~ ~ ~ ~ ~    ~   ~
     
 <--------------------->
 
