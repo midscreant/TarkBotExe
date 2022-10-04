@@ -35,6 +35,7 @@ RUNNING THE BOT:
     -Self-Explanatory. Needs this to boot game on software start
     
   -Checkboxes
+  
     -Enable Inventory Quicksort: Once every full run, bot attempts to quicksort inventory to make room
     -Enable Insurance Checks: Checks Prapor and Therapist for insurance items to claim
     -Enable Flea Checks: Checks Ragman for money or items to claim from the flea
