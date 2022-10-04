@@ -64,9 +64,13 @@ RUNNING THE BOT:
     -Nutrition: Nutrition selction & run count
     
 Once "Time", "Checkup Freq", "Path to BSGLauncher.exe" and at least 1 node activty filled out, you can press "Start"
+
 This brings up a confirmation window with all of your choices
+
 Once confirmed, DO NOT TOUCH THE MOUSE UNLESS YOU ARE READY TO KILL PROGRAM
+
 Tarkov will boot on its own
+
 I would recommend watching the bot until it successfully opens the hideout for the first time. Can get hung up if game takes too long to load and will need to be restarted
 
 <--------------------->
