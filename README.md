@@ -20,9 +20,16 @@ INSTALLATION:
 PREFACE:
 
 This is made for 1920x1080 monitors.
+
 This will not work if you have 2 monitors running.
 
-This was designed to work with fully leveled hideouts. May have unexpected behavior if you attempt to run nodes you don't have or create recipes you aren't high enough level for. The program will end itself if it finds it can't purchase certain items. It will also end itself if you don't have enough money. If you do not make sure you have enough money and the proper levels beforehand, the program may not work as intended.
+This was designed to work with fully leveled hideouts.
+
+May have unexpected behavior if you attempt to run nodes you don't have or create recipes you aren't high enough level for. 
+
+The program will end itself if it finds it can't purchase certain items. It will also end itself if you don't have enough money. 
+
+If you do not make sure you have enough money and the proper levels beforehand, the program may not work as intended.
 
 IF YOU WANT TO KILL PROGRAM MIDRUN - Rapidly and repeatedly move the cursor to one of the four corners of monitor until program ends (~ 1 - 10 sec)
 
