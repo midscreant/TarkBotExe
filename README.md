@@ -109,9 +109,11 @@ I would recommend watching the bot until it successfully opens the hideout for t
 FINAL NOTES
 
 In the future, I plan on adding mobile control options
+
 Considered adding a "Sell On Flea" function, but seemed like it may violate EFT TOS
 
 If you run into any bugs, feel free to let me know. This is a WIP and I don't expect it to run flawlessly.
+
 Discord: vluther123#8297
 
     
