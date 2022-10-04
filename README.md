@@ -89,7 +89,10 @@ Discord: vluther123#8297
 DEPENDENCIES
 
 pytesseract, tesseract
+
 opencv
+
 pyautogui
+
 pillow
     
