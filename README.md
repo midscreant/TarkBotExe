@@ -1,91 +1,87 @@
 # TarkBotExe
-Executable for tarkbot. Source code is currently private but available on request. Will make it public once I decide it's stable enough. First push is Beta V1.0.
+Executable for TarkBot
 
-<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
-09-18-22
-PREREQUISITES
-<><><><><><><><><><><><><><><>
+Source code @ https://github.com/midscreant/TarkBot
 
--Only run TarkBot with one monitor plugged in
+<--------------------->
 
--To kill program, repeatedly and rapidly move cursor into corners of screen (pygui) OR kill by closing opened cmd instance
+INSTALLATION:
 
--Unzip file. To run go to /dist/, then /tgui/, then run tgui.exe inside
+Download all files from master branch and extract. 
+EXE file is located in /dist/tgui/tgui.exe
+Should be ready to go out of the box.
+Running the exe will open a cmd prompt as well as the GUI.
 
--Don't edit any files or folders. Don't move anything around
+<--------------------->
 
--This is only lightly tested, so expect errors
+RUNNING THE BOT:
 
--Currently designed for 1920x1080 screens, 1920x1080 game resolution, and in fullscreen. App is pixel specific so slight changes can cause fatal errors
+As a general rule, inserting a value of -1 to sections will run them indefinitely (with the exception of "Checkup Freq")
 
--Make sure EFT and BSGlauncher not tunning, and that you've already signed in to your BSG account. Will fail otherwise
+-GUI Buttons
 
-Any errors encountered, please let me know.
+  -Preset
+    -Set and delete presets in the top left (select option, then click "Insert" or "Delete"
+    -Create new presets by filling out full form then naming and saving the preset in the "Preset Name" section
+    
+  -Time
+    -How long you want the bot to run for (n * 15min)
+    - -1 input will run indefinitely
+    
+  -Checkup Freq
+    -How long in between hideout checkups. A break in between full runs (n * 15min)
+    
+  -Path to BSGLauncher.exe
+    -Self-Explanatory. Needs this to boot game on software start
+    
+  -Checkboxes
+    -Enable Inventory Quicksort: Once every full run, bot attempts to quicksort inventory to make room
+    -Enable Insurance Checks: Checks Prapor and Therapist for insurance items to claim
+    -Enable Flea Checks: Checks Ragman for money or items to claim from the flea
+    -Enable Reboot Attempts: On encountering a fatal error, the program attempts to reboot itself and start from where it left off. Does this up to 2 times
+    
+  -Nodes
+    
+    If run count or selection is left blank, won't run that node. Need to select both to run it.
+  
+    -Generator: Amount of fuel cans you're willing to add to generator
+    -Water: Amount of water filters you're willing to buy (max)
+    -Booze: Amount of booze you want to produce
+    
+    -Scav: Scav Case selction & run count
+    -Workbench: Workbench selction & run count
+    -Intel: Intel selction & run count
+    -Medstation: Medstation selction & run count
+    -Lavatory: Lavatory selction & run count
+    -Nutrition: Nutrition selction & run count
+    
+Once "Time", "Checkup Freq", "Path to BSGLauncher.exe" and at least 1 node activty filled out, you can press "Start"
+This brings up a confirmation window with all of your choices
+Once confirmed, DO NOT TOUCH THE MOUSE UNLESS YOU ARE READY TO KILL PROGRAM
+Tarkov will boot on its own
+I would recommend watching the bot until it successfully opens the hideout for the first time. Can get hung up if game takes too long to load and will need to be restarted
 
-THIS IS A WIP. IT MAY HURT YOUR PC (Unlikely). I DO NOT TAKE ANY RESPONSIBILITY FOR ANY POTENTIAL DAMAGE CAUSED TO ANY USER'S MACHINE.
+<--------------------->
 
+FINAL NOTES
 
-<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
-HOW TO RUN THE BOT
-<><><><><><><><><><><><><><><>
+In the future, I plan on adding mobile control options
+Considered adding a "Sell On Flea" function, but seemed like it may violate EFT TOS
 
-This is an auto-hideout runner
+If you run into any bugs, feel free to let me know. This is a WIP and I don't expect it to run flawlessly.
+Discord: vluther123#8297
 
+ ___  _, __, _,_ __,  _, ___
+  |  /_\ |_) |_/ |_) / \  | 
+  |  | | | \ | \ |_) \ /  | 
+  ~  ~ ~ ~ ~ ~ ~ ~    ~   ~
+    
+<--------------------->
 
-*full run: One run of every node that is to run. 
+DEPENDENCIES
 
-Preset: Saved presets
-
-Time: Amount of time to run the program for (n * 15min)
-
-Checkup Freq:  Interval between full run attempts
-
-Path to...: Path to BSGLauncher.exe needed to boot game
-
-Generator: How many large fuel containers to load
-
-Water: How many water filters to use
-
-Booze: How many booze to produce
-
-Workbench: Recipe selection and how many times to run it
-
-Intel: Recipe selection and how many times to run it
-
-Medstation: Recipe selection and how many times to run it
-
-Lavatory: Recipe selection and how many times to run it
-
-Nutrition: Recipe selection and how many times to run it
-
-Scav: Recipe selection and how many times to run it
-
-Preset Name: File name for new preset saves
-
-Only required entries are Time, Checkup Freq and Path
-
-
-Leaving either the recipe selection or run count value empty will not run node
-
-Once all chosen inputs have been loaded, press Start
-
-Verify info on new subscreen, then press Confirm
-
-Once confirmed, do not touch mouse or keyboard until the time has run through
-
-or you want to cancel the run.
-
-Tarkov will auto-boot and open, then once loaded it will start
-
-running hideout full runs. Program will wait 10 sec after every
-
-completed node to give a chance to kill program.
-
-
-Reminder: This is a beta. It will probably break at some point.
-
-Would not recommend leaving it unattended for long periods of
-
-time for now
-
-<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+pytesseract, tesseract
+opencv
+pyautogui
+pillow
+    
