@@ -37,6 +37,8 @@ Moving the mouse can cause program to fail. Do not move during run unless you wa
 
 Between each part of a runthrough, there is a 10 second grace period to allow for any necessary onscreen interactions
 
+I never added anything to deal with CAPTCHA, so if it appears program will fail. But it goes slow enough where it shouldn't pop up
+
 By running this program, you allow the bot to use your in-game funds for purchases, re-organize your inventory as it sees fit, and consume items from your stash. 
 
 I AM NOT RESPONSIBLE FOR ANY LOSS OF IN-GAME CURRENCY AND ITEMS
