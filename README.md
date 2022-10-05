@@ -9,7 +9,7 @@ INSTALLATION:
 
   Download all files from master branch and extract. 
   
-  EXE file is located in /dist/tgui/tgui.exe
+  EXE file is located in /dist/TarkBot/TarkBot.exe
   
   Should be ready to go out of the box.
   
