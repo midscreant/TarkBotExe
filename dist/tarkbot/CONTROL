@@ -1,0 +1,9 @@
+Package: tesseract
+Version: 5.2.0
+Port-Version: 2
+Depends: curl, leptonica, libarchive, vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 7ede87770bca751b5cea763274304bb3c07b4c9e1638aca29cd62f8c85c38b4d
+Description: An OCR Engine that was developed at HP Labs between 1985 and 1995... and now at Google.
+Type: Port

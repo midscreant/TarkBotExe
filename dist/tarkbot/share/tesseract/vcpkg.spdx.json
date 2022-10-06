@@ -1,0 +1,137 @@
+{
+  "$schema": "https://raw.githubusercontent.com/spdx/spdx-spec/v2.2.1/schemas/spdx-schema.json",
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "documentNamespace": "https://spdx.org/spdxdocs/tesseract-x64-windows-5.2.0#2-1d2f1925-5e62-4068-904d-c2871e2d8532",
+  "name": "tesseract:x64-windows@5.2.0#2 7ede87770bca751b5cea763274304bb3c07b4c9e1638aca29cd62f8c85c38b4d",
+  "creationInfo": {
+    "creators": [
+      "Tool: vcpkg-522aa94e9d261c7d7b2f079bf2591ca62df5c714"
+    ],
+    "created": "2022-10-06T19:31:13Z"
+  },
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "GENERATES",
+      "relatedSpdxElement": "SPDXRef-binary"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-0"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-1"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-2"
+    },
+    {
+      "spdxElementId": "SPDXRef-binary",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-0",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-2",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-2",
+      "relationshipType": "DEPENDENCY_MANIFEST_OF",
+      "relatedSpdxElement": "SPDXRef-port"
+    }
+  ],
+  "packages": [
+    {
+      "name": "tesseract",
+      "SPDXID": "SPDXRef-port",
+      "versionInfo": "5.2.0#2",
+      "downloadLocation": "git+https://github.com/Microsoft/vcpkg#ports/tesseract",
+      "homepage": "https://github.com/tesseract-ocr/tesseract",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "description": "An OCR Engine that was developed at HP Labs between 1985 and 1995... and now at Google.",
+      "comment": "This is the port (recipe) consumed by vcpkg."
+    },
+    {
+      "name": "tesseract:x64-windows",
+      "SPDXID": "SPDXRef-binary",
+      "versionInfo": "7ede87770bca751b5cea763274304bb3c07b4c9e1638aca29cd62f8c85c38b4d",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "This is a binary package built by vcpkg."
+    },
+    {
+      "SPDXID": "SPDXRef-resource-1",
+      "name": "tesseract-ocr/tesseract",
+      "downloadLocation": "git+https://github.com/tesseract-ocr/tesseract@5ad5325a0aa8effc47ca033625b6a51682f82767",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "c6ed442c9deb28772aeb918142dab08d5b55eeeeccb0c1d3f13cf51bb72af227afb7f14c19a5c8db40d6a7b8cfeccb3af08a78adfcd7431e4a06f65372709ceb"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "fileName": "./fix-depend-libarchive.patch",
+      "SPDXID": "SPDXRef-file-0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "668250236d5db4289a121a5d5f94608678b76fb406388faaab18b6d9204c18b8"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./portfile.cmake",
+      "SPDXID": "SPDXRef-file-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "940d4a76aaeae03b58a515a7766eaecfc5261a6310062e47e2831d15bb334d2a"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./vcpkg.json",
+      "SPDXID": "SPDXRef-file-2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "53ee286587ce640f9e00326f955cb0457509f69f30bd69bd8d6e089ffa0086f9"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    }
+  ]
+}
